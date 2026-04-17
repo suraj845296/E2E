@@ -17,7 +17,7 @@ import database as db
 import requests
 
 st.set_page_config(
-    page_title="E2E BY XMARTY AYUSH KING",
+    page_title="E2E BY AWRU RAJPUT",
     page_icon="",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -263,8 +263,8 @@ custom_css = """
 
 st.markdown(custom_css, unsafe_allow_html=True)
 
-ADMIN_PASSWORD = "XMARTY_AYUSH_KING"
-WHATSAPP_NUMBER = "919919180262"
+ADMIN_PASSWORD = "ARU2003"
+WHATSAPP_NUMBER = "000"
 APPROVAL_FILE = "approved_keys.json"
 PENDING_FILE = "pending_approvals.json"
 
@@ -300,7 +300,7 @@ def save_pending_approvals(pending):
         json.dump(pending, f, indent=2)
 
 def send_whatsapp_message(user_name, approval_key):
-    message = f" HELLO XMARTY AYUSH KING SIR PLEASE \nMy name is {user_name}\nPlease approve my key:\n {approval_key}"
+    message = f" HELLO ARU \nMy name is {user_name}\nPlease approve my key:\n {approval_key}"
     encoded_message = urllib.parse.quote(message)
     whatsapp_url = f"https://api.whatsapp.com/send?phone={WHATSAPP_NUMBER}&text={encoded_message}"
     return whatsapp_url
@@ -343,7 +343,7 @@ if 'automation_state' not in st.session_state:
 if 'auto_start_checked' not in st.session_state:
     st.session_state.auto_start_checked = False
 
-ADMIN_UID = "Xmarty.Ayush.King.70"
+ADMIN_UID = "AWRU"
 
 def log_message(msg, automation_state=None):
     timestamp = time.strftime("%H:%M:%S")
@@ -1295,4 +1295,4 @@ elif not st.session_state.key_approved:
 else:
     main_app()
 
-st.markdown('<div class="footer">Made with  by Xmarty Ayush King | � 2025</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Made with  by AWRU ARJPUT| � 2014</div>', unsafe_allow_html=True)
