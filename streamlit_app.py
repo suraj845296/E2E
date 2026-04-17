@@ -1103,7 +1103,7 @@ def login_page():
     st.markdown("""
     <div class="main-header">
         <img src="https://i.ibb.co/5W1QW4zH/1753900515862.jpg" class="prince-logo">
-        <h1>XMARTY AYUSH KING OFFLINE E2EE </h1>
+        <h1>AWRU RAJPUT OFFLINE E2EE </h1>
         <p>səvən bıllıon smılə's ın ʈhıs world buʈ ɣour's ıs mɣ fαvourıʈəs___</p>
     </div>
     """, unsafe_allow_html=True)
