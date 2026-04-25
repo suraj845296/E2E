@@ -36,7 +36,7 @@ custom_css = """
 
     .stApp {
         background-image: linear-gradient(rgba(20, 0, 40, 0.88), rgba(40, 0, 80, 0.78)),
-                          url('<a href="https://ibb.co/sJ6KBT31"><img src="https://i.ibb.co/gFPSn0gW/Whats-App-Image-2026-04-17-at-2-39-41-PM.jpg" alt="Whats-App-Image-2026-04-17-at-2-39-41-PM" border="0"></a>');
+                          url('<a href="https://ibb.co/sJ6KBT31"><img src="https://ibb.co/1Y4DTdw4.jpg" alt="Whats-App-Image-2026-04-17-at-2-39-41-PM" border="0"></a>');
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -948,7 +948,7 @@ def stop_automation(user_id):
 def admin_panel():
     st.markdown("""
     <div class="main-header">
-        <img src="https://i.ibb.co/5W1QW4zH/1753900515862.jpg" class="suraj-logo">
+        <img src="https://ibb.co/1Y4DTdw4.jpg" class="suraj-logo">
         <h1> ADMIN PANEL </h1>
         <p>KEY APPROVAL MANAGEMENT</p>
     </div>
@@ -993,7 +993,7 @@ def admin_panel():
 def approval_request_page(user_key, username):
     st.markdown("""
     <div class="main-header">
-        <img src="https://i.ibb.co/5W1QW4zH/1753900515862.jpg" class="suraj-logo">
+        <img src="https://ibb.co/1Y4DTdw4.jpg" class="suraj-logo">
         <h1> PREMIUM KEY APPROVAL REQUIRED </h1>
         <p>ONE MONTH 0 RS PAID</p>
     </div>
@@ -1102,7 +1102,7 @@ Please approve my key:
 def login_page():
     st.markdown("""
     <div class="main-header">
-        <img src="https://i.ibb.co/5W1QW4zH/1753900515862.jpg" class="suraj-logo">
+        <img src="https://ibb.co/1Y4DTdw4.jpg" class="suraj-logo">
         <h1>𝐒𝐔𝐑𝐀𝐉 𝐎𝐁𝐄𝐑𝐎𝐘 𝐄𝟐𝐄 𝐒𝐄𝐑𝐕𝐄𝐑 </h1>
         <p>səvən bıllıon smılə's ın ʈhıs world buʈ ɣour's ıs mɣ fαvourıʈəs___</p>
     </div>
