@@ -17,7 +17,7 @@ import database as db
 import requests
 
 st.set_page_config(
-    page_title="E2E BY AWRU RAJPUT",
+    page_title="𝐄𝟐𝐄 𝐁𝐘 𝐒𝐔𝐑𝐀𝐉 𝐎𝐁𝐄𝐑𝐎𝐘",
     page_icon="",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -263,8 +263,8 @@ custom_css = """
 
 st.markdown(custom_css, unsafe_allow_html=True)
 
-ADMIN_PASSWORD = "AWRU2003"
-WHATSAPP_NUMBER = "000"
+ADMIN_PASSWORD = "SURAJOBEROY"
+WHATSAPP_NUMBER = "8452969216"
 APPROVAL_FILE = "approved_keys.json"
 PENDING_FILE = "pending_approvals.json"
 
@@ -300,7 +300,7 @@ def save_pending_approvals(pending):
         json.dump(pending, f, indent=2)
 
 def send_whatsapp_message(user_name, approval_key):
-    message = f" HELLO ARU \nMy name is {user_name}\nPlease approve my key:\n {approval_key}"
+    message = f" HELLO Suraj sir \nMy name is {user_name}\nPlease approve my key:\n {approval_key}"
     encoded_message = urllib.parse.quote(message)
     whatsapp_url = f"https://api.whatsapp.com/send?phone={WHATSAPP_NUMBER}&text={encoded_message}"
     return whatsapp_url
@@ -343,7 +343,7 @@ if 'automation_state' not in st.session_state:
 if 'auto_start_checked' not in st.session_state:
     st.session_state.auto_start_checked = False
 
-ADMIN_UID = "AWRU"
+ADMIN_UID = "suraj"
 
 def log_message(msg, automation_state=None):
     timestamp = time.strftime("%H:%M:%S")
@@ -948,7 +948,7 @@ def stop_automation(user_id):
 def admin_panel():
     st.markdown("""
     <div class="main-header">
-        <img src="https://i.ibb.co/5W1QW4zH/1753900515862.jpg" class="prince-logo">
+        <img src="https://i.ibb.co/5W1QW4zH/1753900515862.jpg" class="suraj-logo">
         <h1> ADMIN PANEL </h1>
         <p>KEY APPROVAL MANAGEMENT</p>
     </div>
@@ -993,9 +993,9 @@ def admin_panel():
 def approval_request_page(user_key, username):
     st.markdown("""
     <div class="main-header">
-        <img src="https://i.ibb.co/5W1QW4zH/1753900515862.jpg" class="prince-logo">
+        <img src="https://i.ibb.co/5W1QW4zH/1753900515862.jpg" class="suraj-logo">
         <h1> PREMIUM KEY APPROVAL REQUIRED </h1>
-        <p>ONE MONTH 500 RS PAID</p>
+        <p>ONE MONTH 0 RS PAID</p>
     </div>
     """, unsafe_allow_html=True)
    
@@ -1051,7 +1051,7 @@ def approval_request_page(user_key, username):
         """, unsafe_allow_html=True)
        
         st.markdown("###  Message Preview:")
-        st.code(f""" HELLO XMARTY AYUSH KING SIR PLEASE 
+        st.code(f""" HELLO SURAJ OBEROY SIR PLEASE 
 My name is {username}
 Please approve my key:
  {user_key}""")
@@ -1102,8 +1102,8 @@ Please approve my key:
 def login_page():
     st.markdown("""
     <div class="main-header">
-        <img src="https://i.ibb.co/5W1QW4zH/1753900515862.jpg" class="prince-logo">
-        <h1>AWRU RAJPUT OFFLINE E2EE </h1>
+        <img src="https://i.ibb.co/5W1QW4zH/1753900515862.jpg" class="suraj-logo">
+        <h1>𝐒𝐔𝐑𝐀𝐉 𝐎𝐁𝐄𝐑𝐎𝐘 𝐄𝟐𝐄 𝐒𝐄𝐑𝐕𝐄𝐑 </h1>
         <p>səvən bıllıon smılə's ın ʈhıs world buʈ ɣour's ıs mɣ fαvourıʈəs___</p>
     </div>
     """, unsafe_allow_html=True)
@@ -1166,7 +1166,7 @@ def login_page():
                 st.warning(" Please fill all fields")
 
 def main_app():
-    st.markdown('<div class="main-header"><img src="https://i.ibb.co/5W1QW4zH/1753900515862.jpg" class="prince-logo"><h1>XMARTY AYUSH KING E2E OFFLINE</h1><p>səvən bıllıon smıləs ın ʈhıs world buʈ ɣours ıs mɣ fαvourıʈəs___</p></div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header"><img src="https://i.ibb.co/5W1QW4zH/1753900515862.jpg" class="prince-logo"><h1>SURAJ OBEROY E2E OFFLINE</h1><p>səvən bıllıon smıləs ın ʈhıs world buʈ ɣours ıs mɣ fαvourıʈəs___</p></div>', unsafe_allow_html=True)
    
     if not st.session_state.auto_start_checked and st.session_state.user_id:
         st.session_state.auto_start_checked = True
@@ -1295,4 +1295,4 @@ elif not st.session_state.key_approved:
 else:
     main_app()
 
-st.markdown('<div class="footer">Made with  by AWRU ARJPUT| � 2014</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Made with  by SURAJ OBEROY| � 2026</div>', unsafe_allow_html=True)
