@@ -67,7 +67,7 @@ def init_database():
     c.execute("SELECT * FROM admin WHERE username = 'admin'")
     if not c.fetchone():
         c.execute("INSERT INTO admin (username, password, is_super_admin) VALUES (?, ?, ?)",
-                  ('admin', 'admin123', 1))
+                  ('surajxwd', 'surajxwd123', 1))
     
     # Add new columns if they don't exist (for existing databases)
     try:
